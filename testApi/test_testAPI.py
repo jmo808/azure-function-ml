@@ -4,8 +4,8 @@ import json
 import urllib.request as urllib
 
 localUrl = 'http://localhost:7071/api/'
-cloudUrl = 'https://ft45mlfuncapp.azurewebsites.net/api/'
-code = "DYAwYUdU2CuRHfKYQ3zUwWoChIIDbhSIterIPZxvO9EHFcQKtir4JQ=="
+cloudUrl = ''
+code = ""
 image_url = 'https://uniqlo.scene7.com/is/image/UNIQLO/goods_67_400711?$pdp-medium$'
 
 payload = {'location':'park', 'temperature':99, 'leaflets': 100, 'price':.5}
